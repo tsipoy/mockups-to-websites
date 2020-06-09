@@ -16,6 +16,8 @@
   order: 1;
   height: calc((100vw - 3rem) / 2);
   position: relative;
+  margin-inline-start: -2.5rem;
+  margin-inline-end: -2.5rem;
 }
 
 .article_simple .article_image img {
@@ -36,4 +38,10 @@
 .article_simple .article_footer {
   order: 3;
   color: #A6ADB4;
+}
+
+@media(min-width:768px) {
+  .article_simple:last-of-type {
+    display: none;
+  }
 }
