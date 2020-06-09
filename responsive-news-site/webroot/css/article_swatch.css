@@ -12,8 +12,8 @@
   order: 1;
   margin-block-start: -1.5rem;
   margin-inline-start: -1.5rem;
-  margin-inline-end: -1.5rem;
-  height: calc(50vw - 3rem);
+  margin-inline-end: -2.5rem;
+  height: calc(50vw - 5rem);
   position: relative;
 }
 
@@ -53,4 +53,10 @@
 .article_swatch .publication_details {
   margin-block-start: 1rem;
   margin-block-end: 0;
+}
+
+@media(min-width:768px) {
+  .article_swatch:last-child {
+    display: none;
+  }
 }
