@@ -2,10 +2,15 @@
   background-color: #fff;
 }
 
+.section_article {
+  display: flex;
+}
+
 #section_more_news > header {
   padding-block-end: 2.5rem;
   border-bottom: 2px solid #EBEDED;
   margin-block-end: 2.5rem;
+  padding-inline-start: 1.5rem;
 }
 
 #section_more_news .article_title {
