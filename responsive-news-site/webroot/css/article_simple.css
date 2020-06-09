@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.article_title {
+  margin-inline-start: -2.5rem;
+}
+
 .article_simple .category {
   display: none;
 }
@@ -38,6 +42,7 @@
 .article_simple .article_footer {
   order: 3;
   color: #A6ADB4;
+  margin-inline-start: -2.5rem;
 }
 
 @media(min-width:768px) {
