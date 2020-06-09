@@ -14,3 +14,14 @@
   border-block-start: 2px solid #EBEDED;
   padding-block-start: 2.5rem;
 }
+
+@media(min-width:768px) {
+  .section_article_simple {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline-end: -2.5rem;
+  }
+  #section_happening_now .article_simple:first-of-type::before {
+    display: none;
+  }
+}
