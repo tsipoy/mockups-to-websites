@@ -1,3 +1,10 @@
 #section_trending article {
   background-color: #fff;
 }
+
+@media(min-width: 768px) {
+  .trending_article {
+    display: flex;
+    flex-direction: row;
+  }
+}
