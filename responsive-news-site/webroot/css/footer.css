@@ -58,3 +58,38 @@ body > footer a {
   justify-content: space-between;
   max-width: 8.5rem;
 }
+
+@media (min-width: 768px) {
+  body > footer {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 5px;
+  }
+  body > footer > h2 {
+    grid-column: 1 / 1;
+    grid-row: 1;
+  }
+  .links_site {
+    grid-column: 3 / 3;
+    grid-row: 1;
+  }
+  .links_social {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .form_subscribe {
+    grid-column: 1;
+    grid-row: 2 / 2;
+  }
+  .links_site {
+    columns: 3;
+  }
+  .links_site li {
+    margin: 0;
+  }
+
+  .link_primary {
+    display: block;
+  }
+}
+
