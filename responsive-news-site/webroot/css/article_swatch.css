@@ -30,10 +30,11 @@
 .article_swatch .article_header {
   order: 2;
 }
-
-.article_title {
+.article_swatch .article_title {
   margin-block-end: 0;
+  margin-inline-start: -0.1rem;
 }
+
 
 .article_swatch .category {
   display: none;
@@ -52,7 +53,7 @@
 
 .article_swatch .publication_details {
   margin-block-start: 1rem;
-  margin-block-end: 0;
+  margin-block-end: 0.1rem;
 }
 
 @media(min-width:768px) {
