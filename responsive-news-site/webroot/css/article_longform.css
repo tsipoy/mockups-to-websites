@@ -1,3 +1,6 @@
 .article_longform {
   padding: 0;
 }
+.article_longform .article_title {
+  margin-inline-start: 0;
+}
