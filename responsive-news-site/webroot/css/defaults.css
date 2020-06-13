@@ -22,7 +22,7 @@ body > header > :first-child,
 body > nav > :first-child,
 main > :first-child,
 body > footer > :first-child {
-  margin-block-start: 0;
+  margin-block-start: 7px;
 }
 
 body > header > :last-child,
