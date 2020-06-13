@@ -37,3 +37,10 @@
     padding-inline-start: 1.5rem;
   }
 }
+
+@media (min-width: 1000px) {
+  .section_article {
+    display: flex;
+    flex-direction: column;
+  }
+}
