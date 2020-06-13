@@ -1,3 +1,11 @@
 main {
   padding: 0;
 }
+@media (min-width: 1000px) {
+  main {
+    display: grid;
+  }
+  #section_more_news {
+    grid-column: 2;
+  }
+}
