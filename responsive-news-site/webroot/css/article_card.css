@@ -51,3 +51,9 @@
     margin-block-end: 10rem;
   }
 }
+
+@media (min-width: 1000px) {
+  .article_card .article_header {
+    margin-block-start: 7rem;
+  }
+}
