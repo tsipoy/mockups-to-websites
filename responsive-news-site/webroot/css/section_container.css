@@ -16,10 +16,8 @@
 
 .section_container article:not(.article_card) {
   margin-block-start: 2.5rem;
-  margin-block-end: 2.5rem;
   padding-inline-end: 2.5rem;
   margin-inline-start: 2.5rem;
-  margin-inline-end: 2.5rem;
 }
 
 .section_container article:last-of-type {
