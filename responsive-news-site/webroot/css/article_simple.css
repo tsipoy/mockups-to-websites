@@ -55,4 +55,7 @@
   .article_simple:last-of-type {
     display: none;
   }
+  .article_simple .article_image {
+    height: calc((100vw - 25rem) / 2);
+  }
 }
