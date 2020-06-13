@@ -65,3 +65,17 @@
     height: calc(50vw - 14rem);
   }
 }
+
+@media(min-width:1000px) {
+  .article_swatch:last-child {
+    display: inline-flex;
+  }
+
+  #section_trending {
+    grid-column: 1 / 3;
+    grid-row: 2;
+  }
+  .article_swatch .article_image {
+    height: calc(50vw - 30rem);
+  }
+}
