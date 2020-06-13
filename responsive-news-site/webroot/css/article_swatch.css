@@ -60,4 +60,8 @@
   .article_swatch:last-child {
     display: none;
   }
+
+  .article_swatch .article_image {
+    height: calc(50vw - 14rem);
+  }
 }
