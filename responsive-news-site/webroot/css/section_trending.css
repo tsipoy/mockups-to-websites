@@ -2,6 +2,10 @@
   background-color: #fff;
 }
 
+#section_trending header {
+  margin-inline-start: 2.5rem;
+}
+
 @media(min-width: 768px) {
   .trending_article {
     display: flex;
