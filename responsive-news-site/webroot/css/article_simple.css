@@ -59,3 +59,10 @@
     height: calc((100vw - 25rem) / 2);
   }
 }
+
+@media(min-width:1000px) {
+  .article_simple:last-child .article_image {
+    height: calc((100vw - 25rem) / 2);
+    display: inline-flex;
+  }
+}
