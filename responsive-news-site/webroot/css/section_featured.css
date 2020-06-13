@@ -22,3 +22,9 @@
 #section_featured footer {
   display: none;
 }
+
+@media (min-width: 1000px) {
+  #section_featured {
+    display: inline-flex;
+  }
+}
