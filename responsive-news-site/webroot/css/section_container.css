@@ -7,7 +7,6 @@
   flex-direction: row;
   justify-content: space-between;
   margin-block-end: 2rem;
-  padding-inline-start: 2.5rem;
 }
 
 .section_container > header > * {
